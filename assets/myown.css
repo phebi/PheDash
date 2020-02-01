@@ -1,0 +1,97 @@
+/* 自定义添加控件样式 */
+
+.left_bar {
+    width: 15%;
+    top: 25px;
+    /*margin-top: 0;*/
+    margin-left: 2.5%;
+    position: absolute;
+    padding: 5px ;
+
+    border-width: 3px;
+    border: #333333;
+    border-style: none;
+}
+
+.top_bar {
+    width: 75%;
+    height: 12%;
+    top: 25px;
+    margin-left: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+
+    /*border-width: 3px;*/
+    /*border: dimgray;*/
+    border-style: none;
+    /*border-radius: 5px;*/
+}
+
+.content_page {
+    width: 75%;
+    margin-left: 20%;
+    margin-top: 10%;
+    position: absolute;
+
+    /*border-width: 3px;*/
+    /*border: dimgray;*/
+    border-style: none;
+    display: flex;
+}
+
+.content_page .content {
+    display: flex;
+    width: 100%;
+
+
+    border-width: 3px;
+    border: dimgray;
+    border-style: none;
+    overflow: auto;
+}
+.content_page .content .board {
+
+    height: auto;
+    /*margin: 5px;*/
+/*    border-width: 3px;*/
+/*    border: dimgray;*/
+/*    border-style: solid;*/
+}
+
+.my_upload {
+    width: 80%;
+    height: 30px;
+    /*line-height: 45px;*/
+    border-width: 0;
+    border-style: none;
+    /*border-radius: 5px;*/
+    text-align: left;
+    margin: 3px 3px;
+}
+
+.my_select {
+    width: 165px;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+}
+
+.my_table {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+
+}
+
+.my_ul {
+    list-style:none;
+    margin:0;
+}
+.my_ul li{
+    /*list-style:none;*/
+    margin:0;
+}
+
+
+
